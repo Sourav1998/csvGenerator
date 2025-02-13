@@ -12,6 +12,7 @@ Also you can install nodemon to avoid manually stoping and restarting your serve
 After doing above just hit below command to start the server(You should be inside the repo directory).
 
 When nodemon is not installed in your system :- **node csvgenerator.js**
+
 When nodemon is installed in your system :- **nodemon csvgenerator.js**
 
 After hitting the above command just copy,paste and hit the below URL in your browser.
