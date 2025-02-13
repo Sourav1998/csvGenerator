@@ -64,11 +64,14 @@ app.get('/generate-csv', async (req, res) => {
 
                 console.log(filePath);
                 //res.json({ filePath });
-                res.send(`The file path is '${filePath}'`);
+                res.send(`CSV file generated: <b>${fileName}</b><br>File Path: <code>${filePath}</code>`);
 
     }   catch (error) {
-        console.error('Error generating CSV:', error);
-        res.status(500).send(`Error :- Failed to generate CSV`);
+        console.error('Error generating CSV:', error.message);
+        res.status(500).send(`
+            <h3>Failed to generate CSV</h3>
+            <p><b>Error:</b> ${error.message}</p>
+        `);
     }
 });
 
