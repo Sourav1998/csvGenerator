@@ -19,6 +19,23 @@ After hitting the above command just copy,paste and hit the below URL in your br
 
 **http://localhost:8080/generate-csv**
 
+**To see the error message kindly remove m from any of the API from the code from line number 10 to 12**
+const API_USERS = 'https://jsonplaceholder.typicode.co/users';
+const API_POSTS = 'https://jsonplaceholder.typicode.com/posts';
+const API_COMMENTS = 'https://jsonplaceholder.typicode.com/comments';
+
+Or
+
+const API_USERS = 'https://jsonplaceholder.typicode.com/users';
+const API_POSTS = 'https://jsonplaceholder.typicode.co/posts';
+const API_COMMENTS = 'https://jsonplaceholder.typicode.com/comments';
+
+Or
+
+const API_USERS = 'https://jsonplaceholder.typicode.com/users';
+const API_POSTS = 'https://jsonplaceholder.typicode.com/posts';
+const API_COMMENTS = 'https://jsonplaceholder.typicode.co/comments';
+
 **Since it is told to map the data based on id key hence have implemented the same.**
 
 **Might be implementing to map based on userId and postId.**
