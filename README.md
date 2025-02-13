@@ -18,3 +18,8 @@ When nodemon is installed in your system :- **nodemon csvgenerator.js**
 After hitting the above command just copy,paste and hit the below URL in your browser.
 
 **http://localhost:8080/generate-csv**
+
+**Since it is told to map the data based on id key hence have implemented the same.**
+
+**Might be implementing to map based on userId and postId.**
+**Will post the github repo in this README file itself**
